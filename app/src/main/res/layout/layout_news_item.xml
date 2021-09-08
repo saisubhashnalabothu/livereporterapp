@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:elevation="8dp"
+    android:padding="15dp"
+    android:layout_margin="20dp"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:id="@+id/newsImg"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/titletv"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Barcelona Wins the Game"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/locSym"
+            android:src="@drawable/ic_baseline_location_on_24"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loctv"
+            android:layout_gravity="bottom"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="The Camp Nou"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newstv"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="14dp"
+        android:text="Barcelona are back to winning ways and will finish the weekend in the Top 5 of the La Liga table thanks to an excellent 3-0 victory over Levante at Camp Nou. Barça played great attacking football throughout the 90 minutes, and Ansu Fati scored on his return in one of the most unforgettable moments in recent Barça history."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datetv"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        android:text="27-09-2021 - 23:50"
+        />
+
+</LinearLayout>
